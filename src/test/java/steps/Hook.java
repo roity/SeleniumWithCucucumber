@@ -29,7 +29,7 @@ public class Hook extends BaseUtil{
 
 
         //Chrome driver
-        System.setProperty("webdriver.chrome.driver", "/home/rajeev/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/tmp/chromedriver");
         base.Driver = new ChromeDriver();
     }
 
